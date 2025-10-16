@@ -82,21 +82,4 @@ curl -i https://<your-railway-domain>/me
 - Ensure machine or Railway allows outbound HTTPS to `catfact.ninja`.
 - Confirm `.env` variables are set in your environment.
 
-## Submission Steps (Slack)
-1. Verify your server works from multiple networks if possible.
-2. Go to Slack `#track-backend`.
-3. Run the command:
-```
-/stage-zero-backend
-```
-4. Submit the following:
-   - Server URL: `http://your-ip-or-domain/me`
-   - GitHub repository link
-   - Your full name
-   - Your email
-   - Stack
-5. Check Thanos bot for success/error after submission.
 
-## Notes
-- This project avoids external dev dependencies; `npm run dev` uses `node --watch` (Node 18+).
-- `engines` in `package.json` specifies Node 18+ for consistency.
